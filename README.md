@@ -8,7 +8,7 @@ local Debris = game:GetService("Debris")
 local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 
-local MAX_CLONES = 10
+local MAX_CLONES = 10000
 local FOLLOW_DISTANCE = 4
 local REPATH_INTERVAL = 0.25
 local FADE_IN_TIME = 0.45
